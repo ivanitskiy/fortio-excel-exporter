@@ -1,0 +1,104 @@
+{
+  "RunType": "HTTP",
+  "Labels": "google.com/echo , SJC",
+  "StartTime": "2022-01-19T18:02:41.757622-08:00",
+  "RequestedQPS": "3",
+  "RequestedDuration": "5s",
+  "ActualQPS": 2.968614742915968,
+  "ActualDuration": 4042289431,
+  "NumThreads": 4,
+  "Version": "dev",
+  "DurationHistogram": {
+    "Count": 12,
+    "Min": 0.037260668,
+    "Max": 0.04858105,
+    "Sum": 0.504803908,
+    "Avg": 0.04206699233333333,
+    "StdDev": 0.0040495268399904924,
+    "Data": [
+      {
+        "Start": 0.037260668,
+        "End": 0.04,
+        "Percent": 41.666666666666664,
+        "Count": 5
+      },
+      {
+        "Start": 0.04,
+        "End": 0.045,
+        "Percent": 66.66666666666667,
+        "Count": 3
+      },
+      {
+        "Start": 0.045,
+        "End": 0.04858105,
+        "Percent": 100,
+        "Count": 4
+      }
+    ],
+    "Percentiles": [
+      {
+        "Percentile": 50,
+        "Value": 0.041666666666666664
+      },
+      {
+        "Percentile": 75,
+        "Value": 0.0458952625
+      },
+      {
+        "Percentile": 90,
+        "Value": 0.047506735
+      },
+      {
+        "Percentile": 99,
+        "Value": 0.0484736185
+      },
+      {
+        "Percentile": 99.9,
+        "Value": 0.04857030685
+      }
+    ]
+  },
+  "Exactly": 0,
+  "Jitter": false,
+  "RunID": 0,
+  "RetCodes": {
+    "401": 12
+  },
+  "Sizes": {
+    "Count": 12,
+    "Min": 179,
+    "Max": 179,
+    "Sum": 2148,
+    "Avg": 179,
+    "StdDev": 0,
+    "Data": [
+      {
+        "Start": 179,
+        "End": 179,
+        "Percent": 100,
+        "Count": 12
+      }
+    ],
+    "Percentiles": null
+  },
+  "HeaderSizes": {
+    "Count": 12,
+    "Min": 0,
+    "Max": 0,
+    "Sum": 0,
+    "Avg": 0,
+    "StdDev": 0,
+    "Data": [
+      {
+        "Start": 0,
+        "End": 0,
+        "Percent": 100,
+        "Count": 12
+      }
+    ],
+    "Percentiles": null
+  },
+  "URL": "https://google.com/echo",
+  "SocketCount": 0,
+  "AbortOn": 0
+}
